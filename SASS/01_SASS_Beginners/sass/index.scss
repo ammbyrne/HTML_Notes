@@ -1,0 +1,26 @@
+@import 'partial';
+
+$primary-color: rgba(21, 255, 0, 0.194);
+$primary-font: 'Source Code Pro';
+
+body {
+  background-color: $primary-color;
+
+  border: 1px solid;
+}
+
+// Nesting
+.container {
+  width: 100%;
+  height: 100%;
+  nav {
+    ul {
+      li {
+        font-size: 7em;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

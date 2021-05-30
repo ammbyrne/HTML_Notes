@@ -1,0 +1,16 @@
+{
+  "name": "sass-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/index.scss ./css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "example_user <example-user@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.34.0"
+  }
+}
